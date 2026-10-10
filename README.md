@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="images/icon.png" width="96" alt="Ghostyak Notes">
-</p>
+
 
 <h1 align="center">Ghostyak Notes</h1>
 
@@ -17,7 +15,6 @@
   <a href="#english">English</a>
 </p>
 
-![PDF에 필기한 화면](images/02-annotate.png)
 
 > **지금은 베타 시험판입니다.** 처음 실행한 날부터 14일 동안 모든 기능을 쓸 수 있습니다. 자세한 것은 아래 [베타 시험판](#베타-시험판)을 읽어 주세요.
 
