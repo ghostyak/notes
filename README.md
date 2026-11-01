@@ -21,7 +21,7 @@
 
 ![PDF에 필기한 화면](images/02-annotate.png)
 
-> **지금은 베타 시험판입니다.** 처음 실행한 날부터 14일 동안 모든 기능을 쓸 수 있습니다. 자세한 것은 아래 [베타 시험판](#베타-시험판)을 읽어 주세요.
+> **30일 체험판입니다.** 처음 실행한 날부터 30일 동안 모든 기능을 쓸 수 있습니다. 자세한 것은 아래 [체험판](#체험판)을 읽어 주세요.
 
 ## 무엇을 할 수 있나
 
@@ -69,35 +69,36 @@
 
 ## 설치
 
-1. [Releases](../../releases/latest)에서 `ghostyak-notes_<버전>_x64-setup.exe`를 내려받습니다.
+1. [Releases](../../releases/latest)에서 `ghostyak-notes-latest-x64-setup.exe`를 내려받습니다.
 2. 실행합니다. **"Windows의 PC 보호" 창이 뜨면 "추가 정보" → "실행"을 누릅니다.** 아직 코드 서명을 하지 않아 뜨는 경고입니다.
 3. 설치가 끝나면 시작 메뉴에서 **Ghostyak Notes**를 실행합니다.
 
 | | |
 |---|---|
 | 운영 체제 | Windows 10 / 11 (64비트) |
-| 설치 파일 크기 | 약 57MB |
+| 설치 파일 크기 | 약 75MB |
 | 필요한 것 | Microsoft Edge WebView2 런타임. Windows 11에는 들어 있고, 없으면 설치 프로그램이 내려받아 깝니다(이때만 인터넷이 필요합니다) |
 
-**새 버전으로 올리기**: 자동 업데이트는 없습니다. 새 설치 파일을 내려받아 그대로 실행하면 됩니다. 문서는 그대로 남습니다.
+**새 버전으로 올리기**: 자동 업데이트는 없습니다. 새 설치 파일을 내려받아 그대로 실행하면 됩니다. 문서는 그대로 남고, 체험 기간은 늘어나지 않습니다.
 
-## 베타 시험판
+## 체험판
 
-버전 이름이 `-beta`로 끝나는 설치본은 베타 시험판입니다.
+v1.0.0부터 설치본은 모두 30일 체험판입니다.
 
-- **처음 실행한 날부터 14일 동안 모든 기능을 씁니다.** 새 버전을 설치하면 다시 14일입니다.
+- **처음 실행한 날부터 30일 동안 모든 기능을 씁니다.** 기간은 기기마다 한 번이고, 새 버전을 설치해도 늘어나지 않습니다. 베타를 쓰던 PC에 v1.0.0을 설치하면 체험이 새로 시작됩니다.
 - **기간이 끝나면 읽기만 할 수 있습니다.** 만든 문서와 필기는 지워지지 않습니다.
 
 | 기간이 끝난 뒤에도 되는 것 | 안 되는 것 |
 |---|---|
-| 문서 열어 읽기, 필기 보기 | 필기(펜·형광펜·텍스트·도형·이미지·글 표시) |
-| 문서 안에서 찾기, 빠른 이동 | 모든 문서에서 찾기 |
-| PDF 가져오기 | 새 노트 |
+| 문서 열어 읽기, 필기 보기, 엿보기 | 필기(펜·형광펜·텍스트·도형·이미지·글 표시) |
+| PDF의 글 선택과 복사 | 올가미로 옮기기·지우기·복사 |
+| 문서 안에서 찾기, 빠른 이동, 북마크·목차로 가기 | 모든 문서에서 찾기 |
+| PDF 가져오기 | 새 노트, 문서 합치기 |
 | 필기를 넣은 PDF로 내보내기, 인쇄 | 북마크 달기, 쪽 편집, 실행 취소 |
-| 문서 정리(이름 바꾸기, 폴더, 휴지통) | |
+| 문서 정리(이름 바꾸기, 폴더, 즐겨찾기, 휴지통) | |
 
 - 기간은 기기의 시계로 셉니다(인터넷을 쓰지 않습니다). 기기의 날짜를 되돌리면 기간이 끝난 것으로 봅니다.
-- 설치 파일마다 최종 만료일이 있습니다(만든 날부터 42일). 오래된 설치 파일보다 최신 버전을 받아 주세요.
+- 계속 쓰려면 Pro가 필요합니다. Pro는 일회 구매이고 키 하나로 기기 3대까지 활성화할 수 있습니다. 구매 기능은 만들고 있으며 곧 제공될 예정입니다. 자세한 내용은 [체험판과 Pro 비교](https://www.ghostyak.com/ko/product/notes#pricing)에서 볼 수 있습니다.
 
 ## 자주 쓰는 단축키
 
@@ -161,9 +162,9 @@ Ghostyak Notes는 오픈소스가 아닙니다. 이 저장소는 설치 파일�
 - Works fully offline. No account, nothing is uploaded. Documents are plain files in `Documents\Ghostyak Notes`.
 - The interface is available in Korean and English.
 
-**Install**: download `ghostyak-notes_<version>_x64-setup.exe` from [Releases](../../releases/latest) and run it. The installer is not code-signed yet, so Windows SmartScreen will warn you: choose "More info" → "Run anyway". Requires Windows 10/11 (64-bit).
+**Install**: download `ghostyak-notes-latest-x64-setup.exe` from [Releases](../../releases/latest) and run it. The installer is not code-signed yet, so Windows SmartScreen will warn you: choose "More info" → "Run anyway". Requires Windows 10/11 (64-bit).
 
-**Beta**: builds whose version ends in `-beta` are fully functional for 14 days from first launch; installing a newer build starts another 14 days. After that the app becomes read-only (you can still open, read, search within a document, import PDFs, export and print). Your documents and annotations are never deleted.
+**Trial**: since v1.0.0 every build is a 30-day trial. All features work for 30 days from first launch, once per device; installing a newer build does not extend it. After that the app becomes read-only (you can still open, read, search within a document, import PDFs, export and print). Your documents and annotations are never deleted. To keep writing and searching your whole library you will need Pro, a one-time purchase that activates up to 3 devices; purchasing is coming soon. See [trial vs. Pro](https://www.ghostyak.com/en/product/notes#pricing).
 
 Feedback and bug reports are welcome in [Issues](../../issues). The app version is shown in the title bar and under the ⓘ button at the right end of the tab bar.
 
