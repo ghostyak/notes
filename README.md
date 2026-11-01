@@ -12,6 +12,8 @@
 <p align="center">
   <a href="../../releases/latest"><b>최신 버전 내려받기</b></a>
   &nbsp;·&nbsp;
+  <a href="https://www.ghostyak.com/ko/product/notes">제품 소개</a>
+  &nbsp;·&nbsp;
   <a href="../../issues">의견·버그 알리기</a>
   &nbsp;·&nbsp;
   <a href="#english">English</a>
@@ -121,6 +123,11 @@
 - 일본어는 낱말 그대로 찾습니다. 활용형이 다르면 찾지 못합니다.
 - 화면 분할, 기기 간 동기화는 아직 없습니다.
 
+## 더 알아보기
+
+- 제품 소개와 체험판·Pro 안내: [ghostyak.com/ko/product/notes](https://www.ghostyak.com/ko/product/notes)
+- 새 버전 소식: [GhostYak 블로그](https://www.ghostyak.com/ko/blog)
+
 ## 의견과 버그
 
 [Issues](../../issues)에 남겨 주세요. 다음을 적어 주시면 빨리 고칠 수 있습니다.
@@ -145,7 +152,7 @@ Ghostyak Notes는 오픈소스가 아닙니다. 이 저장소는 설치 파일�
 
 ## English
 
-**Ghostyak Notes** is a note-taking app for Windows: write on PDFs by hand or by keyboard, and find anything you wrote or read.
+**Ghostyak Notes** is a note-taking app for Windows: write on PDFs by hand or by keyboard, and find anything you wrote or read. Product page: [ghostyak.com/en/product/notes](https://www.ghostyak.com/en/product/notes).
 
 - Pen, highlighter, eraser, shapes, images, and text boxes on top of your PDFs. The original PDF is never modified.
 - Search inside a document or across your whole library. Scanned PDFs are recognized on-device (OCR: Korean, English, Japanese).
