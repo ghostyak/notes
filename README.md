@@ -21,7 +21,7 @@
 
 ![PDF에 필기한 화면](images/02-annotate.png)
 
-> **30일 체험판입니다.** 처음 실행한 날부터 30일 동안 모든 기능을 쓸 수 있습니다. 자세한 것은 아래 [체험판](#체험판)을 읽어 주세요.
+> **30일 체험판입니다.** 처음 실행한 날부터 30일 동안 모든 기능을 쓸 수 있고, 기간이 끝나도 필기는 계속 쓸 수 있습니다. 자세한 것은 아래 [체험판](#체험판)을 읽어 주세요.
 
 ## 무엇을 할 수 있나
 
@@ -86,19 +86,18 @@
 v1.0.0부터 설치본은 모두 30일 체험판입니다.
 
 - **처음 실행한 날부터 30일 동안 모든 기능을 씁니다.** 기간은 기기마다 한 번이고, 새 버전을 설치해도 늘어나지 않습니다. 베타를 쓰던 PC에 v1.0.0을 설치하면 체험이 새로 시작됩니다.
-- **기간이 끝나면 읽기만 할 수 있습니다.** 만든 문서와 필기는 지워지지 않습니다.
+- **기간이 끝나도 필기는 계속 쓸 수 있습니다.** 전체 문자인식과 모든 문서에서 찾기만 쓸 수 없게 됩니다. 만든 문서와 필기, 이미 인식한 글은 그대로 남습니다.
 
 | 기간이 끝난 뒤에도 되는 것 | 안 되는 것 |
 |---|---|
-| 문서 열어 읽기, 필기 보기, 엿보기 | 필기(펜·형광펜·텍스트·도형·이미지·글 표시) |
-| PDF의 글 선택과 복사 | 올가미로 옮기기·지우기·복사 |
-| 문서 안에서 찾기, 빠른 이동, 북마크·목차로 가기 | 모든 문서에서 찾기 |
-| PDF 가져오기 | 새 노트, 문서 합치기 |
-| 필기를 넣은 PDF로 내보내기, 인쇄 | 북마크 달기, 쪽 편집, 실행 취소 |
-| 문서 정리(이름 바꾸기, 폴더, 즐겨찾기, 휴지통) | |
+| 문서 읽기, 필기, 글 표시, 북마크, 목차, 링크, 쪽 편집, 실행 취소 | 문서 전체·여러 쪽 문자인식(OCR) |
+| 새 노트, 문서 합치기, PDF 가져오기, 문서 정리 | OCR 자동모드, 성능모드 |
+| 문서 안에서 찾기, 빠른 이동 | 모든 문서에서 찾기 |
+| 이 쪽 문자인식(OCR), 이미 인식한 글 찾기와 복사 | |
+| 필기를 넣은 PDF로 내보내기, 인쇄 | |
 
 - 기간은 기기의 시계로 셉니다(인터넷을 쓰지 않습니다). 기기의 날짜를 되돌리면 기간이 끝난 것으로 봅니다.
-- 계속 쓰려면 Pro가 필요합니다. Pro는 일회 구매이고 키 하나로 기기 3대까지 활성화할 수 있습니다. 구매 기능은 만들고 있으며 곧 제공될 예정입니다. 자세한 내용은 [체험판과 Pro 비교](https://www.ghostyak.com/ko/product/notes#pricing)에서 볼 수 있습니다.
+- 전체 문자인식과 모든 문서에서 찾기를 계속 쓰려면 Pro가 필요합니다. Pro는 일회 구매이고 구매 뒤 업데이트가 포함되며, 키 하나로 기기 3대까지 활성화할 수 있습니다. 구매 기능은 만들고 있으며 곧 제공될 예정입니다. 자세한 내용은 [체험판과 Pro 비교](https://www.ghostyak.com/ko/product/notes#pricing)에서 볼 수 있습니다.
 
 ## 자주 쓰는 단축키
 
@@ -164,7 +163,7 @@ Ghostyak Notes는 오픈소스가 아닙니다. 이 저장소는 설치 파일�
 
 **Install**: download `ghostyak-notes-latest-x64-setup.exe` from [Releases](../../releases/latest) and run it. The installer is not code-signed yet, so Windows SmartScreen will warn you: choose "More info" → "Run anyway". Requires Windows 10/11 (64-bit).
 
-**Trial**: since v1.0.0 every build is a 30-day trial. All features work for 30 days from first launch, once per device; installing a newer build does not extend it. After that the app becomes read-only (you can still open, read, search within a document, import PDFs, export and print). Your documents and annotations are never deleted. To keep writing and searching your whole library you will need Pro, a one-time purchase that activates up to 3 devices; purchasing is coming soon. See [trial vs. Pro](https://www.ghostyak.com/en/product/notes#pricing).
+**Trial**: since v1.0.0 every build is a 30-day trial. All features work for 30 days from first launch, once per device; installing a newer build does not extend it. After that you can keep annotating, recognizing one page at a time, and using everything else; only whole-document OCR, Auto Mode, Performance Mode, and searching all documents turn off. Your documents, annotations, and already recognized text are never deleted. Those features require Pro, a one-time purchase with updates included that activates up to 3 devices; purchasing is coming soon. See [trial vs. Pro](https://www.ghostyak.com/en/product/notes#pricing).
 
 Feedback and bug reports are welcome in [Issues](../../issues). The app version is shown in the title bar and under the ⓘ button at the right end of the tab bar.
 
