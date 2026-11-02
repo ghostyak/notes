@@ -43,7 +43,7 @@
 - 빠른 이동(`Ctrl+K`)으로 명령과 문서를 이름으로 찾습니다.
 
 **정리하고 내보내기**
-- 모아보기(`F4`)에서 쪽을 옮기고, 지우고, 돌리고, 복사합니다. 빈 쪽(무지·줄·모눈·점·코넬)이나 다른 PDF의 쪽을 넣습니다.
+- 모아보기(`F5`)에서 쪽을 옮기고, 지우고, 돌리고, 복사합니다. 빈 쪽(무지·줄·모눈·점·코넬)이나 다른 PDF의 쪽을 넣습니다.
 - 폴더, 즐겨찾기, 최근 문서, 휴지통으로 문서를 정리합니다.
 - 필기를 넣은 PDF로 내보내고(`Ctrl+Shift+E`) 인쇄합니다(`Ctrl+P`).
 
@@ -63,7 +63,9 @@
 ## 내 파일은 내 것
 
 - **인터넷 없이 모두 동작합니다.** 글자 인식(OCR)도 기기 안에서 합니다. 문서의 내용을 밖으로 보내지 않고, 계정도 없습니다.
-  - 하나의 예외: 글을 선택하고 "사전"을 누르면 그 낱말의 사전 검색 화면이 기본 브라우저로 열립니다. 누를 때만 일어납니다.
+  - 글을 선택하고 "사전"을 누르면 그 낱말의 사전 검색 화면이 기본 브라우저로 열립니다. 누를 때만 일어납니다.
+  - Pro 라이선스를 활성화하거나 해제할 때와, 활성화한 기기를 켜서 라이선스를 확인할 때 결제 대행사(Freemius)에 요청을 보냅니다. 체험판은 보내지 않습니다.
+  - 실험실에서 AI를 켜고 모델 내려받기를 누르면 모델 파일을 Hugging Face에서 받습니다.
 - **문서는 `문서\Ghostyak Notes` 폴더에 평범한 파일(`.gnote`)로 있습니다.** 이 폴더를 복사해 두면 그것이 백업입니다. 앱을 지워도 이 폴더는 남습니다.
 - **원본 PDF는 바꾸지 않습니다.** 필기는 따로 저장되고, 필기를 넣은 PDF가 필요하면 내보냅니다.
 
@@ -86,30 +88,30 @@
 v1.0.0부터 설치본은 모두 30일 체험판입니다.
 
 - **처음 실행한 날부터 30일 동안 모든 기능을 씁니다.** 기간은 기기마다 한 번이고, 새 버전을 설치해도 늘어나지 않습니다. 베타를 쓰던 PC에 v1.0.0을 설치하면 체험이 새로 시작됩니다.
-- **기간이 끝나도 필기는 계속 쓸 수 있습니다.** 전체 문자인식과 모든 문서에서 찾기만 쓸 수 없게 됩니다. 만든 문서와 필기, 이미 인식한 글은 그대로 남습니다.
+- **기간이 끝나도 필기는 계속 쓸 수 있습니다.** 아래 표의 Pro 기능만 쓸 수 없게 됩니다. 만든 문서와 필기, 이미 인식한 글은 그대로 남습니다.
 
-| 기간이 끝난 뒤에도 되는 것 | 안 되는 것 |
+| 기간이 끝난 뒤에도 되는 것 | Pro 기능 |
 |---|---|
-| 문서 읽기, 필기, 글 표시, 북마크, 목차, 링크, 쪽 편집, 실행 취소 | 문서 전체·여러 쪽 문자인식(OCR) |
-| 새 노트, 문서 합치기, PDF 가져오기, 문서 정리 | OCR 자동모드, 성능모드 |
-| 문서 안에서 찾기, 빠른 이동 | 모든 문서에서 찾기 |
-| 이 쪽 문자인식(OCR), 이미 인식한 글 찾기와 복사 | |
-| 필기를 넣은 PDF로 내보내기, 인쇄 | |
+| 문서 읽기, 필기, 글 표시, 북마크, 목차, 링크, 쪽 편집, 실행 취소 | 문자인식(OCR): 이 쪽, 여러 쪽, 문서 전체 |
+| 새 노트, 문서 합치기, PDF 가져오기, 문서 정리 | 문자인식(OCR) 자동모드, 성능모드 |
+| 문서 안에서 찾기, 빠른 이동 | 모든 문서에서 한 번에 찾기 |
+| 이미 인식한 글 찾기와 복사 | 홈의 모든 북마크, 모든 표시한 글 |
+| 필기를 넣은 PDF로 내보내기, 인쇄 | 미니맵 |
 
 - 기간은 기기의 시계로 셉니다(인터넷을 쓰지 않습니다). 기기의 날짜를 되돌리면 기간이 끝난 것으로 봅니다.
-- 전체 문자인식과 모든 문서에서 찾기를 계속 쓰려면 Pro가 필요합니다. Pro는 일회 구매이고 구매 뒤 업데이트가 포함되며, 키 하나로 기기 3대까지 활성화할 수 있습니다. 구매 기능은 만들고 있으며 곧 제공될 예정입니다. 자세한 내용은 [체험판과 Pro 비교](https://www.ghostyak.com/ko/product/notes#pricing)에서 볼 수 있습니다.
+- Pro 기능을 계속 쓰려면 Pro가 필요합니다. Pro는 일회 구매이고 구매 뒤 업데이트가 포함되며, 키 하나로 기기 3대까지 활성화할 수 있습니다. 구매 기능은 만들고 있으며 곧 제공될 예정입니다. 자세한 내용은 [체험판과 Pro 비교](https://www.ghostyak.com/ko/product/notes#pricing)에서 볼 수 있습니다.
 
 ## 자주 쓰는 단축키
 
 | 하는 일 | 키 |
 |---|---|
 | 펜 / 형광펜 / 지우개 / 올가미 / 텍스트 / 도형 | `P` / `H` / `E` / `L` / `T` / `S` |
-| 커서(글 선택) / 손(화면 옮기기) / 엿보기 | `V` / `G` / `X` |
+| 커서(글 선택) / 손(화면 옮기기) / 반투명 | `V` / `G` / `X` |
 | 실행 취소 / 다시 실행 | `Ctrl+Z` / `Ctrl+Y` |
 | 문서에서 찾기 / 모든 문서에서 찾기 / 빠른 이동 | `Ctrl+F` / `Ctrl+Shift+F` / `Ctrl+K` |
 | 북마크 달기·떼기 | `Ctrl+D` |
 | 쪽 번호로 이동 | `Ctrl+G` |
-| 모아보기 / 왼쪽 사이드바 / 더보기 | `F4` / `F9` / `F10` |
+| 모아보기 / 왼쪽 사이드바 / 더보기 | `F5` / `F4` 또는 `Ctrl+B` / `F10` |
 | PDF 가져오기 / 내보내기 / 인쇄 | `Ctrl+O` / `Ctrl+Shift+E` / `Ctrl+P` |
 | 라이브러리로 / 탭 닫기 | `Ctrl+T` / `Ctrl+W` |
 | 설정 | `Ctrl+,` |
@@ -121,7 +123,7 @@ v1.0.0부터 설치본은 모두 30일 체험판입니다.
 - Windows 전용입니다.
 - 손글씨는 검색되지 않습니다(직접 친 글, PDF의 글, 스캔에서 인식한 글이 검색됩니다).
 - 일본어는 낱말 그대로 찾습니다. 활용형이 다르면 찾지 못합니다.
-- 화면 분할, 기기 간 동기화는 아직 없습니다.
+- 기기 간 동기화는 아직 없습니다.
 
 ## 더 알아보기
 
@@ -132,7 +134,7 @@ v1.0.0부터 설치본은 모두 30일 체험판입니다.
 
 [Issues](../../issues)에 남겨 주세요. 다음을 적어 주시면 빨리 고칠 수 있습니다.
 
-- 앱의 버전과 Windows 버전. 앱의 버전은 창 제목줄에 보이고, 탭 줄 오른쪽 끝의 ⓘ를 누르면 나오는 "정보"에서 복사할 수 있습니다
+- 앱의 버전과 Windows 버전. 앱의 버전은 탭 줄 오른쪽 끝의 ⓘ를 누르면 나오는 "정보"에서 보고 복사할 수 있습니다
 - 무엇을 하다가 어떻게 됐는지, 되풀이해서 일어나는지
 - 펜을 쓰는 기기라면 기기 이름
 
@@ -158,14 +160,14 @@ Ghostyak Notes는 오픈소스가 아닙니다. 이 저장소는 설치 파일�
 - Search inside a document or across your whole library. Scanned PDFs are recognized on-device (OCR: Korean, English, Japanese).
 - Bookmarks, outline, page thumbnails, page editing, in-document links, folders, tabs.
 - Export to PDF with your annotations, and print.
-- Works fully offline. No account, nothing is uploaded. Documents are plain files in `Documents\Ghostyak Notes`.
+- Works offline with no account, and your documents are never uploaded. The app goes online only for Pro license activation and checks and for AI model downloads you start yourself. Documents are plain files in `Documents\Ghostyak Notes`.
 - The interface is available in Korean and English.
 
 **Install**: download `ghostyak-notes-latest-x64-setup.exe` from [Releases](../../releases/latest) and run it. The installer is not code-signed yet, so Windows SmartScreen will warn you: choose "More info" → "Run anyway". Requires Windows 10/11 (64-bit).
 
-**Trial**: since v1.0.0 every build is a 30-day trial. All features work for 30 days from first launch, once per device; installing a newer build does not extend it. After that you can keep annotating, recognizing one page at a time, and using everything else; only whole-document OCR, Auto Mode, Performance Mode, and searching all documents turn off. Your documents, annotations, and already recognized text are never deleted. Those features require Pro, a one-time purchase with updates included that activates up to 3 devices; purchasing is coming soon. See [trial vs. Pro](https://www.ghostyak.com/en/product/notes#pricing).
+**Trial**: since v1.0.0 every build is a 30-day trial. All features work for 30 days from first launch, once per device; installing a newer build does not extend it. After that you can keep annotating and using everything else; only OCR (including single pages), Auto Mode, Performance Mode, searching all documents, all bookmarks and all marked text on the home screen, and the minimap turn off. Your documents, annotations, and already recognized text are never deleted. Those features require Pro, a one-time purchase with updates included that activates up to 3 devices; purchasing is coming soon. See [trial vs. Pro](https://www.ghostyak.com/en/product/notes#pricing).
 
-Feedback and bug reports are welcome in [Issues](../../issues). The app version is shown in the title bar and under the ⓘ button at the right end of the tab bar.
+Feedback and bug reports are welcome in [Issues](../../issues). The app version is shown under the ⓘ button at the right end of the tab bar.
 
 Ghostyak Notes is not open source. Third-party notices are available in the app (ⓘ → About) and in `licenses\THIRD-PARTY-NOTICES.txt` in the install folder.
 
